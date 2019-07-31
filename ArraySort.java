@@ -137,7 +137,7 @@ public class ArraySort {
                array[last].compareTo(array[first]) < 0) {
                
                swap(array, first, middle);
-               swap(array, first, last);
+               swap(array, middle, last);
                
             }// End else if 
             
@@ -154,7 +154,7 @@ public class ArraySort {
                array[first].compareTo(array[middle]) < 0) {
                
                swap(array, last, middle);
-               swap(array, last, first);               
+               swap(array, middle, first);               
                
             }// End else if       
         }// End sortFirstMiddleLast
