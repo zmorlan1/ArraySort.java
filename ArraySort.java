@@ -14,7 +14,7 @@ public class ArraySort {
          
          if (last - first + 1 < MIN_SIZE) {
          
-            
+            insertionSort(array, first, last);
          
          }// End if
          else {
